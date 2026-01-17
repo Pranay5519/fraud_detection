@@ -1,0 +1,17 @@
+## Decision Tree
+ # Not Scaled-features
+    SMOTE Oversampling
+
+    DecisionTreeClassifier(best_params ={'max_depth': 70, 'min_samples_split': 40, 'min_samples_leaf': 8, 'criterion': 'entropy', 'class_weight': {0: 5, 1: 1}})
+
+    Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9998    0.9994    0.9996   1270881
+           1     0.6329    0.8478    0.7248      1643
+
+    accuracy                         0.9992   1272524
+   macro avg     0.8163    0.9236    0.8622   1272524
+weighted avg     0.9993    0.9992    0.9992   1272524
+
+
